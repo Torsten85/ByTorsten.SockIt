@@ -1,0 +1,20 @@
+{
+    "description": "GraphQL integration for neos flow",
+    "type": "neos-package",
+    "name": "bytorsten/sockit",
+    "require": {
+        "neos/flow": "4.1.0",
+        "cboden/ratchet": "^0.3.6",
+        "ratchet/pawl": "^0.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ByTorsten\\SockIt\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "ByTorsten.SockIt"
+        }
+    }
+}
